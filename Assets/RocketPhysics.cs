@@ -44,14 +44,11 @@ public class RocketPhysics : MonoBehaviour
         respawning = false;
     }
 
-    private void setRespawn()
-    {
-        respawning = false;
-    }
+   
 
     void SpawnAsteroidFieldIfNecessary()
     {
-        respawning = true;
+       
         if (numberOfAsteroids <= 0)
         {
             level++;
@@ -64,7 +61,7 @@ public class RocketPhysics : MonoBehaviour
             
         }
         
-        Invoke("setRespawn", 2f);
+       
     }
 
     

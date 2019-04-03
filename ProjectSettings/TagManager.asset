@@ -7,6 +7,8 @@ TagManager:
   - PlayerBullet
   - EnemyBullet
   - Asteroid
+  - extraLife
+  - player
   layers:
   - Default
   - TransparentFX
